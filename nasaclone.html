@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Navbar Example</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-dark text-bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand text-white" href="#">Explore</a>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            </a>
+            <ul class="dropdown-menu bg-dark">
+                <li><a class="dropdown-item text-white" href="#">Home </a></li>
+                <li><a class="dropdown-item text-white" href="#">Missions</a></li>
+                <li><a class="dropdown-item text-white" href="#">Earth and Climate</a></li>
+                <li><a class="dropdown-item text-white" href="#">The Solar System</a></li>
+                <li><a class="dropdown-item text-white" href="#">The Universe</a></li>
+                <li><a class="dropdown-item text-white" href="#">Science</a></li>
+            </ul>
+        </li>
+        <form class="d-flex" role="search">
+            <input class="form-control me-1 align-content-start border-secondary bg-dark" type="search" placeholder="Search" aria-label="Search" style="width: 130px;">
+        </form>
+        <div class="d-flex justify-content-center flex-grow-1"> <!-- Centering the logo -->
+            <a class="navbar-brand" href="#">
+                <img src="https://www.nasa.gov/wp-content/themes/nasa/assets/images/nasa-logo.svg" alt="Logo" style="height: 50px; width: 100px;" class="d-inline-block" id="img">
+            </a>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto" id="items">
+                <li class="nav-item">
+                    <a class="nav-link active text-white fw-bold" aria-current="page" href="#">News & Events</a>
+                </li>
+                <div class="dropdown">
+                    <button class="btn btn-dark dropdown-toggle bg-dark" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    </button>
+                    <ul class="dropdown-menu bg-dark">
+                        <li><a class="dropdown-item text-white" href="#">All NASA News</a></li>
+                        <li><a class="dropdown-item text-white" href="#">Video Series on NASA</a></li>
+                        <li><a class="dropdown-item text-white" href="#">Podcast</a></li>
+                        <li><a class="dropdown-item text-white" href="#">Blogs</a></li>
+                        <li><a class="dropdown-item text-white" href="#">Newsletter</a></li>
+                        <li><a class="dropdown-item text-white" href="#">Social Media</a></li>
+                    </ul>
+                </div>
+                <li class="nav-item">
+                    <a class="nav-link text-white fw-bold" href="#">Multimedia</a>
+                </li>
+                <div class="dropdown">
+                    <button class="btn btn-dark dropdown-toggle bg-dark" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    </button>
+                    <ul class="dropdown-menu bg-dark">
+                        <li><a class="dropdown-item text-white" href="#">All NASA News</a></li>
+                        <li><a class="dropdown-item text-white" href="#">Video Series on NASA</a></li>
+                        <li><a class="dropdown-item text-white" href="#">Podcast</a></li>
+                        <li><a class="dropdown-item text-white" href="#">Blogs</a></li>
+                        <li><a class="dropdown-item text-white" href="#">Newsletter</a></li>
+                        <li><a class="dropdown-item text-white" href="#">Social Media</a></li>
+                    </ul>
+                </div>
+                <li class="nav-item">
+                    <a class="nav-link disabled text-white fw-bold">NASA +</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+      <div class="hero flex-wrap">
+        <img src="https://www.nasa.gov/wp-content/uploads/2023/03/iss066e080034.jpg" class="main-img" style="width: 100%;" />
+        <div class="hero-text">Space Station</div>
+        <div class="para">the International Space Stationprogram brings together international flight crews
+          and  </div>
+          <div class="para-1">the international cientific research community</div>
+          <div class="button-container ">
+            <button class="button-1">Space Station blog</button>
+            </div>
+            <hr class="custom-hr" />
+            <div class="info-container">
+              <div class="info-box">
+                  <p>Artemis </p>
+                  <p style="font-size: 1.25rem;">Artemis blog</p>
+             
+              </div>
+              <div class="info-box">
+                  <p >JWST</p>
+                  <p style="font-size: 1rem;" >James webspace telescope Blogs</p>
+                 
+              </div>
+              <div class="info-box">
+                  <p >x-59</p>
+                  <p style="font-size: 1.25rem;">Quest Mission</p>
+                
+              </div>
+          </div>
+            
+            </div>
+            <h1 class="Featured col-6 col-sm-4 col-md-3" >Featured News</h1>
+
+
+            <div class="d-flex flex-wrap mb-3 justify-content-evenly  ">
+              <div class="p-2 col-6 col-sm-4 col-md-3 ">
+                <img src="https://www.nasa.gov/wp-content/uploads/2024/11/thanksgiving-2024-20-thanksgiving-2014.jpg" style="width: 750px; height: 450px;"  class="img-fluid" alt="Featured News 1"/>
+               
+              </div>
+              <div class="p-2 col-6 col-sm-4 col-md-3">
+                <img src="https://science.nasa.gov/wp-content/uploads/2024/11/hotneptune-1280c.jpeg" style="width: 370px; height: 450px;"  class="img-fluid" alt="Featured News 2"/>
+              </div>
+              <div class="p-2 col-6 col-sm-4 col-md-3"> <img src="https://science.nasa.gov/wp-content/uploads/2024/11/sanaa-oli-20240608-1440.jpg" style="width: 370px; height: 210px;"  class="img-fluid" alt="Featured News 3"/>
+                <div class="link-2" style="margin-top: 8px;">
+                <img src="https://www.nasa.gov/wp-content/uploads/2024/11/1-pia26443-spacecraft-illustration.jpg?resize=1024,576" style="width: 370px; height: 210px; "  class="img-fluid" alt="Featured News 4"/>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex">
+              <div class="flex-shrink-0">
+                <img src="..." alt="...">
+              </div>
+              <div class="flex-grow-1 ms-3 justify-content-between ">
+                <img src="https://assets.science.nasa.gov/dynamicimage/assets/science/missions/mars2020/2024/perseverance-rover-updates/Mars_Perseverance_FLF_1332_0785188907_602ECM_N0620538FHAZ02418_01_295J.png" class="rounded-circle" style="width: 80px; height: 80px;"/>
+              you are now arriving at pico Turquino
+              </div>
+              <div class="flex-grow-1 ms-3 ">
+                <img src="https://assets.science.nasa.gov/dynamicimage/assets/science/cds/science-enabling-technology/technology-highlights/2024/NGRx_Image_2.jpg" class="rounded-circle" style="width: 80px; height: 80px;"/>
+              NASA AI
+              </div>
+              <div class="flex-grow-1 ms-3 ">
+                <img src="https://assets.science.nasa.gov/dynamicimage/assets/science/cds/science-enabling-technology/technology-highlights/2024/Figure1_EuropaSurfaceImage.jpg" class="rounded-circle" style="width: 80px; height: 80px;"/>
+              towards autonoumous surface mission
+              </div>
+              
+            </div>
+
+            <div class="position-relative">
+              <img src="https://www.nasa.gov/wp-content/uploads/2024/11/nasa-holiday-fireplace-key-art-r1-horizontal-program-tile-16-9-without-title.jpg?resize=2000,1125" class="mt-3" style="filter: brightness(0.5); "/>
+          
+              <div class="text-white fw-bold  position-absolute" style="left: 90px; top: 300px; margin-top: 100px; font-size: 7rem;">
+                  Warmup Your
+                  <div>Holidays</div>
+                  <div class="para fw-normal" style="font-size: 1rem; margin-top: 60px; margin-left: 34px;">Look no further than this cozy and relaxing fireplace—complete with four RS-25 rocket engines and 8.8 million pounds of thrust—to fill your hearth with light and power your party to the Moon!</div>  
+                  <div class="tag" style="font-size: 2.5rem; margin-top: 150px; margin-left: 28px;">Nasa virtual fireplace
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  </div>           
+              </div>
+              <h1 style="margin-top: 85px; margin-left: 75px; font-style: bold; font-size: 3rem;">Humans in Space</h1>
+            </div>
+            <div class="d-flex flex-row mb-3 justify-content-evenly">
+              <div class="p-2">
+                <div class="position-relative">
+                <img src="https://images-assets.nasa.gov/image/iss063e053998/iss063e053998~large.jpg?w=1920&h=1280&fit=crop&crop=faces%2Cfocalpoint" style="width: 310px; height: 400px; filter: brightness(0.5);"/>
+                <div class="position-absolute top-50 start-50 translate-middle text-white" style="font-size: 2rem;"> why go to space</div>
+              </div>
+              </div>
+              <div class="p-2">
+                <div class="position-relative">
+                <img src="https://www.nasa.gov/wp-content/uploads/2023/02/edu_srch_microsofts_hacking_stem.jpg" style="width: 310px; height: 400px; filter: brightness(0.5);"/>
+                <div class="position-absolute top-50 start-50 translate-middle text-white" style="font-size: 2rem;">Astronouts</div>
+              </div>
+                </div>
+
+              <div class="p-2">
+                <div class="position-relative">
+                <img src="https://images-assets.nasa.gov/image/iss041e012095/iss041e012095~large.jpg?w=1920&h=1277&fit=crop&crop=faces%2Cfocalpoint" style="width: 310px; height: 400px; filter: brightness(0.5);"/>
+                <div class="position-absolute top-50 start-50 translate-middle text-white" style="font-size: 2rem; "> commercial
+                  <div>space</div>
+                </div>
+              </div>
+                </div>
+
+              <div class="p-2">
+                <div class="position-relative">
+                <img src="https://www.nasa.gov/wp-content/uploads/2023/01/meir-2.png" style="width: 310px; height: 400px; filter: brightness(0.5);"/>
+                <div class="position-absolute top-50 start-50 translate-middle text-white" style="font-size: 2rem; ">Living in space</div>
+              </div>
+                </div>
+              </div>
+            </div>
+            <div class="position-relative">
+              <img src="https://www.nasa.gov/wp-content/uploads/2023/03/187_1003705_americas_dxm.png" class="mt-3" style="filter: brightness(0.5); width: 100%; "/>
+          
+              <div class="text-white fw-bold  position-absolute" style="left: 90px; top: 300px; margin-top: 100px; font-size: 7rem;">
+                Earth information
+                  <div>center</div>
+                  <div class="para fw-normal" style="font-size: 1rem; margin-top: 60px; margin-left: 34px;">For more than 50 years, NASA satellites have provided data on Earth's land, water, air, temperature, and climate. NASA's Earth Information Center allows visitors to see how our planet is changing in six key areas: sea level rise and coastal impacts, health and air quality, wildfires, greenhouse gases, sustainable energy, and agriculture.</div>  
+                  <div class="tag" style="font-size: 2.5rem; margin-top: 150px; margin-left: 28px;">Start Exploring
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  </div>           
+              </div>
+            </div>
+           
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"> </script>
+</body>
+</html>

@@ -1,0 +1,123 @@
+.img{
+    margin: auto;
+}
+
+input::placeholder {
+    color: gray; /* Change this to your desired gray color */
+    opacity: 1; /* Ensure the placeholder is fully opaque */
+}
+
+.main-img{
+    width: 100%;
+}
+
+.hero {
+    position: relative;
+    text-align: left; /* Center the text horizontally */
+    
+}
+
+.main-img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+}
+
+.hero-text {
+    position: absolute;
+    top: 40%; /* Position from the top */
+    left: 20%; /* Position from the left */
+    transform: translate( -70%); /* Center the text */
+    color: white; /* Text color */
+    font-size: 4rem; /* Font size */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add a shadow for better visibility */
+    margin-right: 150px;
+    font-style: bold;
+}
+
+.para {
+    position: absolute;
+    top: 49%; /* Position from the top */
+    left: 30%; /* Position from the left */
+    transform: translate( -70%); /* Center the text */
+    color: white; /* Text color */
+    font-size: 1rem; /* Font size */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add a shadow for better visibility */
+    margin-right: 150px;
+    font-style: bold;
+}
+.para-1 {
+    position: absolute;
+    top: 51%; /* Position from the top */
+    left: 18%; /* Position from the left */
+    transform: translate( -70%); /* Center the text */
+    color: white; /* Text color */
+    font-size: 1rem; /* Font size */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add a shadow for better visibility */
+    margin-right: 150px;
+    font-style: bold;
+}
+
+.button-container {
+    position: absolute;
+    top: 55%; /* Adjust as needed */
+    left: 5%; /* Align to the left */
+    z-index: 10; /* Ensure the button is above the image */
+    
+    
+}
+.button-1{
+    background-color: red;
+    color: white;
+    height: 45px;
+    width: 250px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    
+
+}
+
+.custom-hr {
+    border: none; /* Remove default border */
+    height: 2px; /* Set the height of the line */
+    background-color: gray; /* Set the color of the line */
+    margin: 20px 0; /* Add space above and below the line */
+    width: 100%; /* Set the width of the line */
+    position: absolute;
+    top: 75%; /* Adjust as needed */
+    left: 2%; /* Align to the left */
+}
+
+.info-container {
+    display: flex; /* Align children in a row */
+    justify-content: left; /* Center the items horizontally */
+    position: absolute; /* Position over the image */
+    top: 90%; /* Adjust as needed */
+    left: 10%; /* Center the container */
+    transform: translate(-30%, -30%); /* Center the container */
+    gap: 20px; /* Space between the boxes */
+}
+
+.info-box {
+   
+    color: white; /* Set text color to white */
+    margin-left: 35px 35px 35px 35px; /* Padding inside the box (Top, Right, Bottom, Left) */
+    border-radius: 10px; /* Rounded corners */
+    text-align: left; /* Align text to the left */
+    width: 150px; /* Fixed width for uniformity */
+    justify-content: space-between;
+}
+
+.Featured{
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 35px;
+    margin-left: 55px;
+}
+
+
+@media (max-width: 575.98px) {
+    .img-fluid {
+        max-width: 100%; /* Ensure images take full width */
+        height: auto; /* Maintain aspect ratio */
+    }
+}
